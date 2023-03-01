@@ -150,7 +150,7 @@ while (!is_game_over(board, visible_board, rows, cols)) {
 
     if (board[x][y] == MINE) {
         visible_board[x][y] = MINE;
-        cout << "YOU’RE DEAD!" << endl;
+        cout << "YOU'RE DEAD!" << endl;
         print_board(visible_board, rows, cols);
 
         break;
